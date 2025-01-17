@@ -19,7 +19,7 @@
 % \printanswers %Uncomment this line
 
 \title{Weekly Challenge 01: \LaTeX\; practice and introduction to logic}
-\author{Blingblong} % <=== replace with your student ID, e.g. xy012345
+\author{mm10357} % <=== replace with your student ID, e.g. xy012345
 \date{CS/MATH 113 Discrete Mathematics\\Habib University\\Spring 2025}
 
 \qformat{{\large\bf \thequestion. \thequestiontitle}\hfill}
@@ -32,19 +32,35 @@
   
 \titledquestion{Everythings on the table} Draw the truth table of the implication operator.
 \begin{solution}
-    % Add your solution here
+\hspace{3cm}\textit{Implication Truth Table}
+\centering\begin{tabular}{|c|c|c|}
+  \hline
+  P & Q & $P \implies Q$ \\
+  \hline
+  T & T & T \\
+  T & F & F \\
+  F & T & T \\
+  F & F & T \\
+  \hline
+  \end{tabular}
 \end{solution}
 
 \titledquestion{Triangles!} Write the Pythagorean theorem.
 \begin{solution}
-    % Add your solution here
+   The Pythagorean Theorem states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides. Mathematically,
+\[
+a^2 + b^2 = c^2,
+\]
+where $a$ and $b$ are the lengths of the two sides, and $c$ is the length of the hypotenuse.
+Definition Source: Chatgpt
 \end{solution}
 
 \titledquestion{That feeling when knee surgery is tomorrow} Consider the statement ``If Luigi was a mansplaining cat then shrek will give you knee surgery tomorrow''. Given then Luigi is an italian human plumber what can you say about the above statement?
 
 Elaborate your answers in 2 to 3 sentences by referencing to the relevant row(s) in the truth table.
 \begin{solution}
-    % Add your solution here
+The statement provided is: "If Luigi was a mansplaining cat, then Shrek will give you knee surgery tomorrow." Let $P$ represent "Luigi is a mansplaining cat" and $Q$ represent "Shrek gives you knee surgery tomorrow." The statement can be expressed as $P \implies Q$
+Given that Luigi is an Italian human plumber, $P$ is false. The truth table of $P \implies Q$ states that when $P$ is false, the implication $P \implies Q$ is true regardless of the truth value of $Q$. Thus, the statement in this case will be true.
 \end{solution}
 
 
